@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.animate-spin-slow {
+  animation: spin 6s linear infinite;
+}
+
+.animate-spin-reverse-slower {
+  animation: spin 8s ease-in-out infinite;
+}
